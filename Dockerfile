@@ -2,9 +2,12 @@ FROM ubuntu:20.04
 
 MAINTAINER Florian Benz Moritz Gnisia
 
+ENV TZ Europe/Berlin
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN apt-get update && \
     apt-get upgrade -y
-
+    
 RUN apt-get install -y --no-install-recommends texlive-latex-recommended\
     texlive-latex-extra\
     texlive-fonts-recommended\
