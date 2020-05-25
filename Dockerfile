@@ -14,6 +14,7 @@ RUN apt-get install -y --no-install-recommends texlive-latex-recommended\
     texlive-fonts-extra\
     texlive-lang-all\
     python\
+    xindy\
     python3-pip\
     make
 
