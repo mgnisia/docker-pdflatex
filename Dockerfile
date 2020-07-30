@@ -13,6 +13,7 @@ RUN apt-get install -y --no-install-recommends texlive-latex-recommended\
     texlive-fonts-recommended\
     texlive-fonts-extra\
     texlive-lang-all\
+    texlive-science\
     python\
     xindy\
     python3-pip\
