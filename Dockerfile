@@ -14,6 +14,8 @@ RUN apt-get install -y --no-install-recommends texlive-latex-recommended\
     texlive-fonts-extra\
     texlive-lang-all\
     texlive-science\
+    texlive-bibtex-extra\
+    biber\
     python\
     xindy\
     python3-pip\
