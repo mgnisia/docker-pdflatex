@@ -5,6 +5,12 @@ A Docker image that provides pdflatex with the most common packages. Based on [F
 ## Ingredients:
 
 - texlive
+  - texlive-latex-recommended
+  - texlive-latex-extra
+  - texlive-fonts-recommended
+  - texlive-fonts-extra
+  - texlive-lang-all
+  - texlive-science
 - pygements
 - make
 
