@@ -7,3 +7,13 @@ A Docker image that provides pdflatex with the most common packages. Based on [F
 - texlive
 - pygements
 - make
+
+## Docker Hub
+
+You can pull the container from docker hub via:
+
+```shell
+docker pull mgnisia/pdflatex_pygments:latest
+```
+
+Link to Docker Hub: [https://hub.docker.com/r/mgnisia/pdflatex_pygments](https://hub.docker.com/r/mgnisia/pdflatex_pygments)
