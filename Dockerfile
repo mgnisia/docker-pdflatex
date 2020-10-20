@@ -19,7 +19,8 @@ RUN apt-get install -y --no-install-recommends texlive-latex-recommended\
     python\
     xindy\
     python3-pip\
-    make
+    make\
+    latexmk
 
 RUN pip3 install Pygments
 
