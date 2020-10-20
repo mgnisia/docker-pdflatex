@@ -1,7 +1,5 @@
 FROM ubuntu:20.04
 
-MAINTAINER Florian Benz Moritz Gnisia
-
 ENV TZ Europe/Berlin
 ENV DEBIAN_FRONTEND noninteractive
 
